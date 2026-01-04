@@ -132,6 +132,7 @@ def example_custom_retrieval(vector_store):
 
 
 def main():
+    # Load environment variables from .env file
     load_dotenv()
     
     if not os.getenv("AZURE_OPENAI_API_KEY") and not os.getenv("OPENAI_API_KEY"):

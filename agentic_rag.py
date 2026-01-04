@@ -5,6 +5,7 @@ import json
 from retrieval_tool import RetrievalTool
 from dotenv import load_dotenv
 
+# Load environment variables from .env file
 load_dotenv()
 
 
